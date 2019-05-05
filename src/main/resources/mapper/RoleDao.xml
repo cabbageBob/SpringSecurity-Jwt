@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="cn.wzf.springsecurityjwt.Dao.RoleDao">
+<resultMap id="roleDaoMap" type="cn.wzf.springsecurityjwt.entity.RoleEntity">
+    <id column=""
+</resultMap>
+
+    <select id="findAllByRoleId" resultType="cn.wzf.springsecurityjwt.entity.RoleEntity"></select>
+</mapper>
