@@ -9,9 +9,9 @@ import java.util.HashMap;
 import java.util.Map;
 
 public class JwtTokenUtils {
-    public static final String TOKEN_HEADER = "Authonrization";
+    public static final String TOKEN_HEADER = "Authorization";
     public static final String TOKEN_PREFIX = "Bearer ";
-    private static final String SECRET = "jwtsecretdemo";
+    public static final String SECRET = "myJwtSecret";
     private static final String ISS = "echisan";
     // 角色的key
     private static final String ROLE_CLAIMS = "role";
